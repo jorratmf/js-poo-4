@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+</head>
+<body>
+    <form>
+		<label for="codigo">Código:</label>
+		<input type="text" id="codigo">
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre">
+		<label for="precio">Precio:</label>
+		<input type="number" id="precio">
+		<button type="button" onclick="agregarProducto()">Agregar</button>
+	</form>
+	<h1>Últimos 3 productos</h1>
+	<ul id="ultimos-productos">
+	</ul>
+    
+    <script src="app.js"></script>
+</body>
+</html>
